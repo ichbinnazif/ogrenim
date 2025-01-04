@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from geopy.geocoders import Nominatim
 
-st.title("Mahmood")
+st.title("Son Star Avcısı")
 lokasyon=Nominatim(user_agent='geoapi_exercise')
 konumunuz=st.text_input("Konumunuzu giriniz")
 konum=lokasyon.geocode(konumunuz)
